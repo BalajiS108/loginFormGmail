@@ -30,7 +30,7 @@
 
 }
 .Name-div{
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     display: flex;
     gap:0px;
@@ -39,12 +39,16 @@
 
 
 }
-.First-name{
+.First-name-div .First-name{
 
     border:1px solid silver;
     border-radius: 4px;
     height:30px;
     width:200px;
+    /* padding-top: 17px; */
+    /* text-align: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
    
 
 }
@@ -134,10 +138,11 @@
 .gmail-div{
     padding-left: 40px;
 }
-/* .Sign-in-instead-div{
-    
+.Sign-in-instead-div .sign-in{
+    text-decoration:none;
+    color:blue;
 
-} */
+}
 .Text-div{
     margin-left: 40px;
     font-size: 20px;
